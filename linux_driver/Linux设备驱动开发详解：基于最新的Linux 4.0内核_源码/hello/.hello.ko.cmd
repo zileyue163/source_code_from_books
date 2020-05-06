@@ -1,0 +1,1 @@
+cmd_/home/zile/study/linux_driver/practice/hello/hello.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/zile/study/linux_driver/practice/hello/hello.ko /home/zile/study/linux_driver/practice/hello/hello.o /home/zile/study/linux_driver/practice/hello/hello.mod.o ;  true
